@@ -21,8 +21,8 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
 
-    const adminEmail = 'test@example.com';
-    const adminPassword = '123456789';
+    const adminEmail = 'admin.dev0@example.com';
+    const adminPassword = 'admin786';
 
     const handleLogin = () => {
         if (email === adminEmail && password === adminPassword) {
