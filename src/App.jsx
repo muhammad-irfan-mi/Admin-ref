@@ -8,10 +8,10 @@ import AdminProfile from './scenes/AdminProfile/AdminProfile'
 
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, tokens, useMode } from "./theme";
-import Notifications from "./scenes/notification/Notifications";
+// import Notifications from "./scenes/notification/Notifications";
 import NotificationUser from "./components/NotificationUser";
 import UserProfile from './components/userProfile'
-import Setting from "./scenes/setting/Setting";
+// import Setting from "./scenes/setting/Setting";
 import ApprovedUser from "./scenes/team/ApprovedUser";
 
 // Users
@@ -45,7 +45,7 @@ function App() {
               <Route path="/blockaccounts" element={<BlockAccount />} />
               <Route path="notificationUser" element={<NotificationUser />} />
               <Route path="/user" element={<UserProfile />} />
-              <Route path="/setting" element={<Setting />} />
+              {/* <Route path="/setting" element={<Setting />} /> */}
               <Route path="/approved" element={<ApprovedUser />} />
               <Route path="/newUser" element={<NewUser />} />
               <Route path="/task" element={<Task />} />
