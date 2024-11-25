@@ -42,7 +42,7 @@ const AllTask = () => {
             <Box>
                 <Box display="grid" gridTemplateColumns="repeat(6, 3fr)" gridAutoRows="140px" gap="20px">
                     <Box display="flex" justifyContent="space-between" alignItems="center" gridColumn="span 6">
-                        <Header title="Pending User " subtitle="Managing the All Pending User" />
+                        <Header title="All Task " subtitle="See the All Task You Added" />
                     </Box>
                 </Box>
 
@@ -50,7 +50,7 @@ const AllTask = () => {
                     <Box gridColumn="span 3" backgroundColor={colors.primary[400]} display="flex" alignItems="center" justifyContent="center">
                         <StatBox
                             title={`${count}`}
-                            subtitle="Total Pending User"
+                            subtitle="Total Added Taskx "
                             icon={<TrafficIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />}
                         />
                     </Box>
